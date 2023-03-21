@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+#nav-bar {
+    float: right;
+}
+
+#nav-bar li {
+    display: inline-block;
+    padding: 14px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#nav-bar a:hover {
+    text-decoration: underline;
+}
+
+#logo-google img {
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    display: block;
+    padding-top: 170px;
+}
+
+#barra-de-busca {
+    text-align: center;
+}
+
+#barra {
+    width: 530px;
+    line-height: 40px;
+    border-radius: 17px;
+    border: 1px solid rgb(175, 173, 173);
+    margin-top: 14px;
+
+}
+
+#botao-pesquisa {
+    text-align: center;
+    margin-top: 27px;
+
+}
+
+#botao-google,
+#botao-google1 {
+    width: 150px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: #ededed;
+    font-size: 15px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #e4e4e4;
+    border: 2px solid #F2f2f2;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#footer-direito {
+    float: right;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#footer-esquerdo {
+    float: left;
+    text-align: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
